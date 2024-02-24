@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            border-color: black;
+            border-collapse: collapse;
+            border-style: solid;
+            width: 100%;
+        }
+        tr,th,td{
+            border-style: solid;
+            text-align: center;
+
+        }
+        tr:nth-child(even){
+            background-color: yellow;
+        }
+        th{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="3 " colspan="3">Country name</th>
+            <th>Country ID</th>
+            <th>Country Email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>india@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Pakistan</td>
+            <td>PAK</td>
+            <td>Pakistan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>JP</td>
+            <td>japan@gmail.com</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="3">COuntry</th>
+            <td>Ind</td>
+            <td>Chin</td>
+        </tr>
+        <tr>
+            <th>code</th>
+            <td>In</td>
+            <td>CN</td>
+        </tr>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
